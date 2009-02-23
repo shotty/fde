@@ -1,0 +1,15 @@
+div.fde_button {
+	margin: 0 0.2%;
+	text-align:center;
+	vertical-align:middle;
+	text-transform:capitalize;
+	cursor:pointer;
+	border:1px solid red;
+}
+
+div.fde_button canvas.fde_icon {
+	float:left;
+	top:0;
+	left:0;
+	z-index:-1;
+}

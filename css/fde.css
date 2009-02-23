@@ -1,0 +1,48 @@
+html{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height:100%;
+	width:100%;
+}
+
+body{
+	width:100%;
+	height:100%;
+}
+
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height:0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+
+.fde_tmp{
+	visibility:hidden;
+	position:absolute;
+	top:-2000px;
+	left:-2000px;
+}
+
+.fde_hide{
+	visibility:hidden;
+}
+.fde_notPresent{
+	display:none;
+}
+.fde_show{
+	visibility:visible;
+}
+.fde_present{
+	display:block;
+}

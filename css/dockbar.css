@@ -1,0 +1,25 @@
+div.fde_dockbar{
+	position:fixed;
+	z-index:10000;
+}
+div.fde_dockbar canvas.fde_decoration{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+div.fde_dockbar_west{
+	right:0;
+}
+div.fde_dockbar_est{
+	left:0;
+}
+div.fde_dockbar_north{
+	top:0;
+}
+div.fde_dockbar_south{
+	bottom:0;
+}

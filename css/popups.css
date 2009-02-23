@@ -1,0 +1,171 @@
+div.fde_popup_background{
+	position:absolute;
+	z-index:1003;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+div.fde_popup div{
+	/*border:1px solid red;*/
+}
+div.fde_popup{
+	font-size:70%;
+	z-index:1004;
+}
+
+div.fde_popup_normal{
+	position:fixed;
+}
+
+div.fde_popup canvas.fde_popup_canvas{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+div.fde_popup div.fde_popup_title{
+	width:95%;
+	height:4%;
+	padding-left:5%;
+	font-weight:bold;
+	text-transform:uppercase;
+	white-space:nowrap;
+}
+
+div.fde_popup div.fde_popup_content{
+	width:98%;
+	height:94%;
+	margin:0.5% auto;
+	overflow:auto;
+}
+
+div.fde_popup div.fde_popup_close, 
+div.fde_popup div.fde_popup_minimize, 
+div.fde_popup div.fde_popup_maximize {
+	height:12px;
+	width:12px;
+	cursor:pointer;
+	position:absolute;
+}
+
+div.fde_popup div.fde_popup_close{
+	top:0;
+	right:0;
+}
+
+div.fde_popup div.fde_popup_maximize{
+	right:3%;
+	top:0;	
+}
+
+div.fde_popup div.fde_popup_minimize{
+	right:6%;
+	top:0;
+}
+
+div.fde_popup div.fde_popup_resize{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	height:12px;
+	width:12px;
+}
+
+
+
+
+img.fde_popup_icon_tmp{
+	position:absolute;
+	visibility:hidden;
+	top:-2000px;
+	left:-2000px;
+}
+
+
+/*
+	FDE popup minimized CSS
+ */
+div.fde_popup_minimized{
+	position:fixed;
+	width:150px;
+	height:30px;
+}
+
+div.fde_popup_otherAnchor{
+	float:left;
+	position:static;
+}
+
+div.fde_popup_otherAnchor canvas.fde_popup_canvas{
+	position:static;
+}
+
+div.fde_popup_otherAnchor div.fde_popup_title{
+	height:100%;
+}
+
+div.fde_popup_otherAnchor div.fde_popup_maximize{
+	display:none;
+}
+
+div.fde_popup_otherAnchor div.fde_popup_minimize{
+	display:none;
+}
+
+div.fde_popup_otherAnchor div.fde_popup_close{
+	display:none;
+}
+
+div.fde_popup_otherAnchor canvas.fde_popup_canvas{
+	float:left;
+}
+
+div.fde_popup_minimized div.fde_popup_title{
+	float:left;
+	height:auto;
+	padding-left:10%;
+	width:85%;
+}
+div.fde_popup_minimized div.fde_popup_content{
+	display:none;
+}
+div.fde_popup_minimized div.fde_popup_resize{
+	display:none;
+}
+div.fde_popup_minimized div.fde_popup_maximize{
+	right:9%;
+	top:0;	
+}
+div.fde_popup_minimized div.fde_popup_minimize{
+	right:18%;
+	top:0;
+}
+
+
+/*
+	FDE maximized management CSS
+*/
+div.fde_popup_maximized{
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+div.fde_popup_maximized canvas.fde_popup_canvas{
+	position:absolute;
+}
+
+div.fde_popup_maximized div.fde_popup_resize{
+	display:none;
+}
+div.fde_popup_maximized div.fde_popup_maximize{
+	right:2%;
+}
+div.fde_popup_maximized div.fde_popup_minimize{
+	right:4%;
+}
